@@ -28,7 +28,8 @@ Travel-n-Entertainment Search Webpage
 
 
 # 4. Demo and Details
-// video..
+// video
+
 - The application makes an AJAX call to the search.php script hosted on GAE
 - The result table display upto 20 places and active the Previous/Next button if there are more pages
 - Info tab contains Address/ Phone Number/ Price Level/ Rating/ Google Page/ Webpage/ Website/ Hours
