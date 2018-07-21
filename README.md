@@ -33,7 +33,7 @@ https://827-dot-helloworld-198821.appspot.com/
 
 - The result table display upto 20 places and active the Previous/Next button if there are more pages
 - A user can modify the start location with autocomplete service
-
+![Imgur Image](https://imgur.com/Eobq9o0.gif)
 
 
 - Info tab contains Address/ Phone Number/ Price Level/ Rating/ Google Page/ Webpage/ Website/ Hours
