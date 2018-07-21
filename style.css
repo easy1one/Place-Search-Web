@@ -1,0 +1,110 @@
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .album_col {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .album_col {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+.review_animation.ng-hide-add,
+.review_animation.ng-hide-remove {
+    -webkit-transition : 0.3s ease-in-out opacity;
+    -moz-transition    : 0.3s ease-in-out opacity;
+    -ms-transition     : 0.3s ease-in-out opacity;
+    -o-transition      : 0.3s ease-in-out opacity;
+    transition         : 0.3s ease-in-out opacity;
+    opacity            : 1;
+}
+
+.review_animation.ng-hide {
+    opacity : 0;
+}
+
+.leftToRight_detail_animation.ng-hide-remove,
+.rightToLeft_table_animation.ng-hide-remove{
+    -webkit-transition : 0.3s all linear;
+    -moz-transition    : 0.3s all linear;
+    -ms-transition     : 0.3s all linear;
+    -o-transition      : 0.3s all linear;
+    transition         : 0.3s all linear;
+}
+
+.rightToLeft_table_animation.ng-hide{
+    transform: translateX(300%);
+}
+
+.leftToRight_detail_animation.ng-hide {
+    transform: translateX(-300%);
+}
+
+.form-group.required .control-label:after { 
+   content:"*";
+   color:red;
+}
+
+.allInfo th,
+.allInfo td{
+	white-space: nowrap;
+}
+.container {
+	border: 1px;
+	margin: 0; 
+	padding: 0; 
+}
+
+.row_ {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.album_col {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.album_col img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.noMargin {
+	margin: 0;
+	padding: 0;
+}
+
+.rateYo_rating {
+	display: inline-block;
+}
+
+.selected {
+  background-color: #FF8C00;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .album_col {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .album_col {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
