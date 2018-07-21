@@ -11,15 +11,20 @@ Travel-n-Entertainment Search Webpage
    
    
 # 3. Code relationships
-1) app.yaml:   is used for the configuration files
+1) app.yaml
+:is used for the configuration files
 
-2) main.html:  designs the webpage that displays search and result forms using Bootstrap for responsive design.
+2) main.html
+:designs the webpage that displays search and result forms using Bootstrap for responsive design.
 
-3) search.php: constucts HTTP requests to the Google Places API "Nearby Search" service using the input address which is from                the geocoding via Google Maps Geocoding API. It also passes the JSON object returned by the Nearby Search to                  the client side, or parse the returned JSON and extract useful fields and pass these fields to the client side                in JSON format. AJAX call to the script hosted on GAE. 
+3) search.php
+:constucts HTTP requests to the Google Places API "Nearby Search" service using the input address which is from                the geocoding via Google Maps Geocoding API. It also passes the JSON object returned by the Nearby Search to                  the client side, or parse the returned JSON and extract useful fields and pass these fields to the client side                in JSON format. AJAX call to the script hosted on GAE. 
 
-4) place.js:   deals with Autocomplete service provided by Google Maps Plateform and Search controller to parse the JSON                      object and display the result in a tabular format with AngularJS. Plus, it obtains User Location using                        geolocation APIs(ip-api.com)
+4) place.js
+:deals with Autocomplete service provided by Google Maps Plateform and Search controller to parse the JSON                      object and display the result in a tabular format with AngularJS. Plus, it obtains User Location using                        geolocation APIs(ip-api.com)
 
-5) style.css:  is a style sheet for main.html
+5) style.css
+:is a style sheet for main.html
 
 
 # 4. Demo and Details
