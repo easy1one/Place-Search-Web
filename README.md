@@ -49,7 +49,7 @@ https://827-dot-helloworld-198821.appspot.com/
 
 
 - Review tab displays the Google reviews and Yelp review of the place. For Yelp, two APIs are needed: "Business Match", "Business Reviews" 
-![Imgur](https://i.imgur.com/UZB9FUG.gifv)
+![Imgur](https://i.imgur.com/UZB9FUG.gif)
 
 
 - Favorite tab keeps the selected places and they could be deleted from the favorite list using HTML5 local storage 
