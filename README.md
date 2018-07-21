@@ -32,7 +32,7 @@ https://827-dot-helloworld-198821.appspot.com/
 - For the full video: https://youtu.be/SUELFdAqNx8
 
 - The result table display upto 20 places and active the Previous/Next button if there are more pages
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/vIQUEju"><a href="//imgur.com/vIQUEju"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+![Imgur Image](https://imgur.com/Eobq9o0.gif)
 
 - Info tab contains Address/ Phone Number/ Price Level/ Rating/ Google Page/ Webpage/ Website/ Hours
 //2 
