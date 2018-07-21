@@ -32,23 +32,31 @@ https://827-dot-helloworld-198821.appspot.com/
 - For the full video: https://youtu.be/SUELFdAqNx8
 
 - The result table display upto 20 places and active the Previous/Next button if there are more pages
+- A user can modify the start location with autocomplete service
 ![Imgur Image](https://imgur.com/Eobq9o0.gif)
-![Imgur](https://i.imgur.com/2aJgWt3.gif)
+
 
 - Info tab contains Address/ Phone Number/ Price Level/ Rating/ Google Page/ Webpage/ Website/ Hours
+![Imgur](https://i.imgur.com/2aJgWt3.gif)
 
 
 - Photos tab contains photos in 4 rows from the Google library
 
+
+
 - Map tab shows street views and directions from the customized start place to the searched one
 
+
+
 - Review tab displays the Google reviews and Yelp review of the place. For Yelp, two APIs are needed: "Business Match", "Business Reviews" 
+
+
 
 - Favorite tab keeps the selected places and they could be deleted from the favorite list using HTML5 local storage 
 
 
-- Error messages is poped up with a propriate comments when an error occurs for any reason
 
+(+) Error messages is poped up with a propriate comments when an error occurs for any reason
 (+) A dynamic progress bar is displayed while data is being fetched
 (+) Time conversion using Moment.js(http://momentjs.com/)
 
