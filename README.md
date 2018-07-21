@@ -48,7 +48,7 @@ https://827-dot-helloworld-198821.appspot.com/
 
 
 
-- Review tab displays the Google reviews and Yelp review of the place. For Yelp, two APIs are needed: "Business Match", "Business Reviews" 
+- Review tab displays the Google reviews and Yelp review of the place; For Yelp,"Business Match", "Business Reviews" APIs
 ![Imgur](https://i.imgur.com/UZB9FUG.gif)
 
 
