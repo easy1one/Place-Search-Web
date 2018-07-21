@@ -32,7 +32,7 @@ https://827-dot-helloworld-198821.appspot.com/
 - For the full video: https://youtu.be/SUELFdAqNx8
 
 - The result table display upto 20 places and active the Previous/Next button if there are more pages
-<a href="https://imgflip.com/gif/2eghve"><img src="https://i.imgflip.com/2eghve.gif" title="made at imgflip.com" width="200" height="400"/></a>
+<a href="https://imgflip.com/gif/2eghve"><img src="https://i.imgflip.com/2eghve.gif" title="made at imgflip.com" width="800" /></a>
 
 - Info tab contains Address/ Phone Number/ Price Level/ Rating/ Google Page/ Webpage/ Website/ Hours
 //2 
