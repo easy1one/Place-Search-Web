@@ -33,6 +33,7 @@ https://827-dot-helloworld-198821.appspot.com/
 
 - The result table display upto 20 places and active the Previous/Next button if there are more pages
 ![Imgur Image](https://imgur.com/Eobq9o0.gif)
+![Imgur Image](https://imgur.com/ySfpBSA.gif)
 
 - Info tab contains Address/ Phone Number/ Price Level/ Rating/ Google Page/ Webpage/ Website/ Hours
 ![Imgur Image](https://imgur.com/a/RZmJ0VG.gif)
@@ -44,6 +45,7 @@ https://827-dot-helloworld-198821.appspot.com/
 - Review tab displays the Google reviews and Yelp review of the place. For Yelp, two APIs are needed: "Business Match", "Business Reviews" 
 
 - Favorite tab keeps the selected places and they could be deleted from the favorite list using HTML5 local storage 
+![Imgur Image](https://imgur.com/a/5zC1sH4)
 
 - Error messages is poped up with a propriate comments when an error occurs for any reason
 
