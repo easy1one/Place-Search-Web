@@ -45,7 +45,7 @@ https://827-dot-helloworld-198821.appspot.com/
 
 
 - Map tab shows street views and directions from the customized start place to the searched one
-
+![Imgur](https://i.imgur.com/Z4Eiigw.gifv)
 
 
 - Review tab displays the Google reviews and Yelp review of the place; For Yelp,"Business Match", "Business Reviews" APIs
