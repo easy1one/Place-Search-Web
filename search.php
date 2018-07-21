@@ -2,24 +2,24 @@
     header ("Access-Control-Allow-Origin: *");
 
     $nearby_url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?";
-    $nearby_token ="AIzaSyD6uUsUydi_QiZ6Vo_h78st-25JXOzpbYA";
+    $nearby_token ="<YOUR_KEY>";
 
     $googleGeo_url = "https://maps.googleapis.com/maps/api/geocode/json?";
-    $googleGeo_token = "AIzaSyBUF49hGvXdf3hVcdFc7u3BUZNnO6-Y-gM";
+    $googleGeo_token = "<YOUR_KEY>";
 
     $detail_url = "https://maps.googleapis.com/maps/api/place/details/json?";
-    $detail_token = "AIzaSyAwqkK1KaTy6hXCaqAByAnWepG4Qz1CcxM";
+    $detail_token = "<YOUR_KEY>";
 
     $photo_url = "https://maps.googleapis.com/maps/api/place/photo?";
-    $photo_token = "AIzaSyAHN7A4lAgrfHi5bpTybDB71gDG_g69qNc";
+    $photo_token = "<YOUR_KEY>";
 
     $next_url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?";
-    $next_token = "AIzaSyAZ9x16YjZYsTBCQU8HzK3flDLGAaD5uTg";
+    $next_token = "<YOUR_KEY>";
 
     $yelp_bestMatch_url = "https://api.yelp.com/v3/businesses/matches/best?";
     $yelp_lookup_url = "https://api.yelp.com/v3/businesses/matches/lookup?";
     $yelp_businessID_url = "https://api.yelp.com/v3/businesses/";
-    $yelp_token = "DtMWP4bXgrccawR5jPkCtFNLuPsbPGvRFRpeHRG-kh8RvdsADsOnJU4oP-0l7QM_pPkBFM8F4guvwPP-20EDRxX9Du_npblXtZZQTzQHQIq8OtyU3Ze--Nt-T5HAWnYx";
+    $yelp_token = "<YOUR_KEY>";
 
     if (isset($_GET)){
         // For location
