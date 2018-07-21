@@ -33,10 +33,10 @@ https://827-dot-helloworld-198821.appspot.com/
 
 - The result table display upto 20 places and active the Previous/Next button if there are more pages
 ![Imgur Image](https://imgur.com/Eobq9o0.gif)
-![Imgur Image](https://imgur.com/a/ySfpBSA)
+![Imgur Image](https://imgur.com/a/ySfpBSA.gif)
 
 - Info tab contains Address/ Phone Number/ Price Level/ Rating/ Google Page/ Webpage/ Website/ Hours
-![Imgur Image](https://imgur.com/a/RZmJ0VG)
+![Imgur Image](https://imgur.com/a/RZmJ0VG.gif)
 
 - Photos tab contains photos in 4 rows from the Google library
 ![Imgur Image](..)
