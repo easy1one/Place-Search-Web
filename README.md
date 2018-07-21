@@ -11,7 +11,7 @@ Travel-n-Entertainment Search Webpage
    
    
 # 3. Code relationships
-- app.yaml
+1) app.yaml
 :is used for the configuration files
 
 2) main.html
