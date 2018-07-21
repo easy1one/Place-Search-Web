@@ -33,7 +33,6 @@ https://827-dot-helloworld-198821.appspot.com/
 
 - The result table display upto 20 places and active the Previous/Next button if there are more pages
 <a href="https://imgflip.com/gif/2eghve"><img src="https://i.imgflip.com/2eghve.gif" title="made at imgflip.com"/></a>
-<a href="https://imgflip.com/gif/2eghwu"><img src="https://i.imgflip.com/2eghwu.gif" title="made at imgflip.com"/></a>
 
 - Info tab contains Address/ Phone Number/ Price Level/ Rating/ Google Page/ Webpage/ Website/ Hours
 //2 
