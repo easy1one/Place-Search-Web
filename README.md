@@ -41,9 +41,7 @@ https://827-dot-helloworld-198821.appspot.com/
 
 
 - Photos tab contains photos in 4 rows from the Google library
-![Imgur](https://i.imgur.com/vu8rUHs.gif)
-
-
+- Once a user clicks the photo, high resolution photo will be appeared in the new window
 - Map tab shows street views and directions from the customized start place to the searched one
 ![Imgur](https://i.imgur.com/Z4Eiigw.gif)
 
@@ -57,7 +55,7 @@ https://827-dot-helloworld-198821.appspot.com/
 ![Imgur](https://i.imgur.com/1WaefG6.gif)
 
 
-(+) Error messages is poped up with a propriate comments when an error occurs for any reason
-(+) A dynamic progress bar is displayed while data is being fetched
-(+) Time conversion using Moment.js(http://momentjs.com/)
+- Error messages is poped up with a propriate comments when an error occurs for any reason
+- A dynamic progress bar is displayed while data is being fetched
+- Time conversion using Moment.js (http://momentjs.com/)
 
