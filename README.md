@@ -1,6 +1,6 @@
 # Place-Search-Web
-Travel-n-Entertainment Search Webpage
-https://827-dot-helloworld-198821.appspot.com/
+- Travel-n-Entertainment Search Webpage
+- https://827-dot-helloworld-198821.appspot.com/
 
 # 1. High Level Description
 : A webpage that allows users to search for places using the Google Places API and display the result on the same page below the form. Once the user clicks on a button to serach for place details, the webpage should display several tabs which contain an info/ photos/ map/ route/ reviews respectively. It also supports adding places to and removing from favorites and posintg places info to Twitter. 
@@ -33,11 +33,11 @@ https://827-dot-helloworld-198821.appspot.com/
 
 - The result table display upto 20 places and active the Previous/Next button if there are more pages
 - A user can modify the start location with autocomplete service
-![Imgur Image](https://imgur.com/Eobq9o0.gif)
-
+![Imgur](https://i.imgur.com/tibQ45w.gif)
+![Imgur](https://i.imgur.com/2U4mss5.gif)
 
 - Info tab contains Address/ Phone Number/ Price Level/ Rating/ Google Page/ Webpage/ Website/ Hours
-![Imgur](https://i.imgur.com/2aJgWt3.gif)
+![Imgur](https://i.imgur.com/JSp3HtC.gif)
 
 
 - Photos tab contains photos in 4 rows from the Google library
