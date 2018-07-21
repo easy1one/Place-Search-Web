@@ -1,7 +1,5 @@
 <?php
-
     header ("Access-Control-Allow-Origin: *");
-
 
     $nearby_url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?";
     $nearby_token ="AIzaSyD6uUsUydi_QiZ6Vo_h78st-25JXOzpbYA";
@@ -23,7 +21,6 @@
     $yelp_businessID_url = "https://api.yelp.com/v3/businesses/";
     $yelp_token = "DtMWP4bXgrccawR5jPkCtFNLuPsbPGvRFRpeHRG-kh8RvdsADsOnJU4oP-0l7QM_pPkBFM8F4guvwPP-20EDRxX9Du_npblXtZZQTzQHQIq8OtyU3Ze--Nt-T5HAWnYx";
 
-    //header('Content-Type: application/json');
     if (isset($_GET)){
         // For location
         if(isset($_GET["func"])){ 
@@ -64,10 +61,6 @@
                 }
             }else if($_GET["func"] == "yelp_func"){
 
-                // name=' + $scope.detail_name + "&latitude=" + $scope.detail_lat + "&longitude=" + $scope.detail_lon;
-                // yelpSearch_url += "&city=" + $scope.detail_city + "&state=" + $scope.detail_state + "&country=" + $scope.detail_country + "&postal_code=" + $scope.detail_postal_code + "&address1=" + $scope.detail_address1;
-                // yelpSearch_url += "$phone_num" + $scope.detail_yelp_phoneNum;
-
                 if(isset($_GET["name"])) {
                     $yelp_lookup_url .= "name=" . $_GET["name"] . "&latitude=" . $_GET["latitude"] . "&longitude=" . $_GET["longitude"] . "&address1=".$_GET["address1"] . "&city=" . $_GET["city"] . "&state=" . $_GET["state"] . "&country=" . $_GET["country"] . "&postal_code=" . $_GET["postal_code"] . "&phone=".$_GET["phone_num"];
 
@@ -80,10 +73,6 @@
                     $context = stream_context_create($opts);
 
                     $yelp_response = file_get_contents($yelp_lookup_url, false, $context);
-
-                    //echo $yelp_lookup_url;
-                    //echo $yelp_response;
-
                     $yelp_data = json_decode($yelp_response);
                     $yelp_id = $yelp_data -> businesses[0] -> id;
                     $yelp_name = $yelp_data -> businesses[0] -> name;
@@ -120,5 +109,5 @@
                 // Something more?
             }
         }
-    } //isset($_GET["from"])
+    }
 ?>
