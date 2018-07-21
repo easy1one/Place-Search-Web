@@ -37,7 +37,7 @@ https://827-dot-helloworld-198821.appspot.com/
 
 
 - Info tab contains Address/ Phone Number/ Price Level/ Rating/ Google Page/ Webpage/ Website/ Hours
-
+![Imgur](https://i.imgur.com/2aJgWt3.gif)
 
 
 - Photos tab contains photos in 4 rows from the Google library
@@ -49,7 +49,7 @@ https://827-dot-helloworld-198821.appspot.com/
 
 
 - Review tab displays the Google reviews and Yelp review of the place. For Yelp, two APIs are needed: "Business Match", "Business Reviews" 
-
+![Imgur](https://i.imgur.com/UZB9FUG.gifv)
 
 
 - Favorite tab keeps the selected places and they could be deleted from the favorite list using HTML5 local storage 
