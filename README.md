@@ -48,12 +48,13 @@ https://827-dot-helloworld-198821.appspot.com/
 ![Imgur](https://i.imgur.com/Z4Eiigw.gif)
 
 
-- Review tab displays the Google reviews and Yelp review of the place; For Yelp,"Business Match", "Business Reviews" APIs
+- Review tab displays the Google reviews and Yelp review of the place
+- For Yelp, "Business Match" and "Business Reviews" APIs
 ![Imgur](https://i.imgur.com/UZB9FUG.gif)
 
 
 - Favorite tab keeps the selected places and they could be deleted from the favorite list using HTML5 local storage 
-
+![Imgur](https://i.imgur.com/1WaefG6.gif)
 
 
 (+) Error messages is poped up with a propriate comments when an error occurs for any reason
