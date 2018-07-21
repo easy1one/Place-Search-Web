@@ -34,9 +34,8 @@ Travel-n-Entertainment Search Webpage
 - Info tab contains Address/ Phone Number/ Price Level/ Rating/ Google Page/ Webpage/ Website/ Hours
 - Photos tab contains photos in 4 rows from the Google library
 - Map tab shows street views and directions from the customized start place to the searched one
-- Review tab displays the Google reviews and Yelp review of the place
-  ;for Yelp, two APIs are needed: "Business Match", "Business Reviews" 
-- Favorite tab keeps the selected places and they could be deleted from the favorite list  using HTML5 local storage 
+- Review tab displays the Google reviews and Yelp review of the place. For Yelp, two APIs are needed: "Business Match", "Business Reviews" 
+- Favorite tab keeps the selected places and they could be deleted from the favorite list using HTML5 local storage 
 - Error messages is poped up with a propriate comments when an error occurs for any reason
 - A dynamic progress bar is displayed while data is being fetched
 - Time conversion using Moment.js(http://momentjs.com/)
