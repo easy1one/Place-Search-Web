@@ -41,7 +41,7 @@ https://827-dot-helloworld-198821.appspot.com/
 
 
 - Photos tab contains photos in 4 rows from the Google library
-
+![Imgur](https://i.imgur.com/ATgms5Y.gifv)
 
 
 - Map tab shows street views and directions from the customized start place to the searched one
