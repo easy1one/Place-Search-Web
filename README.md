@@ -37,7 +37,7 @@ https://827-dot-helloworld-198821.appspot.com/
 
 
 - Info tab contains Address/ Phone Number/ Price Level/ Rating/ Google Page/ Webpage/ Website/ Hours
-![Imgur](https://i.imgur.com/2aJgWt3.gif)
+
 
 
 - Photos tab contains photos in 4 rows from the Google library
