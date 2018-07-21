@@ -33,8 +33,7 @@
                         if(isset($_GET["location"])){
                             if($_GET["location"] != ""){
                                 $googleGeo_url .= "address=" . $_GET['location'] . "&key=" . $googleGeo_token;
-                                //$googleGeo_url = str_replace(' ','+', $googleGeo_url);
-                                $google_response = file_get_contents($googleGeo_url); // array somthing
+                                $google_response = file_get_contents($googleGeo_url);
                                 $google_json_data = json_decode($google_response);
                                 $location_lat = $google_json_data -> results[0] -> geometry -> location -> lat;
                                 $location_lng = $google_json_data -> results[0] -> geometry -> location -> lng;
@@ -63,7 +62,6 @@
 
                 if(isset($_GET["name"])) {
                     $yelp_lookup_url .= "name=" . $_GET["name"] . "&latitude=" . $_GET["latitude"] . "&longitude=" . $_GET["longitude"] . "&address1=".$_GET["address1"] . "&city=" . $_GET["city"] . "&state=" . $_GET["state"] . "&country=" . $_GET["country"] . "&postal_code=" . $_GET["postal_code"] . "&phone=".$_GET["phone_num"];
-
 
                     $headers = "Authorization: Bearer DtMWP4bXgrccawR5jPkCtFNLuPsbPGvRFRpeHRG-kh8RvdsADsOnJU4oP-0l7QM_pPkBFM8F4guvwPP-20EDRxX9Du_npblXtZZQTzQHQIq8OtyU3Ze--Nt-T5HAWnYx\r\n" . 
                                 "Cache-Control: no-cache\r\n";
@@ -106,7 +104,7 @@
                     }
                 }
             }else {
-                // Something more?
+                // if there is some functions more ... add it here
             }
         }
     }
