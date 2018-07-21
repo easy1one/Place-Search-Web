@@ -11,8 +11,8 @@ Travel-n-Entertainment Search Webpage
    
    
 # 3. Code relationships
-1) app.yaml
-is used for the configuration files
+- app.yaml
+:is used for the configuration files
 
 2) main.html
 :designs the webpage that displays search and result forms using Bootstrap for responsive design.
