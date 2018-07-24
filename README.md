@@ -29,7 +29,7 @@
 
 # 4. Demo and Details
 - The application makes an AJAX call to the search.php script hosted on GAE
-- For the full video: https://youtu.be/SUELFdAqNx8
+- For the full video: <a href="https://youtu.be/SUELFdAqNx8" target="_blank">https://youtu.be/SUELFdAqNx8</a>
 
 - The result table display upto 20 places and active the Previous/Next button if there are more pages
 - A user can modify the start location with autocomplete service
