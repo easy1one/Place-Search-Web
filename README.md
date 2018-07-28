@@ -12,19 +12,19 @@
    
 ## 3. Code relationships
 __1) app.yaml__<br />
-:is used for the configuration files
+: is used for the configuration files
 
 __2) main.html__<br />
-:designs the webpage that displays search and result forms using Bootstrap for responsive design.
+: designs the webpage that displays search and result forms using Bootstrap for responsive design.
 
 __3) search.php__<br />
-:constucts HTTP requests to the Google Places API "Nearby Search" service using the input address which is from                the geocoding via Google Maps Geocoding API. It also passes the JSON object returned by the Nearby Search to                  the client side, or parse the returned JSON and extract useful fields and pass these fields to the client side                in JSON format. AJAX call to the script hosted on GAE. 
+: constucts HTTP requests to the Google Places API "Nearby Search" service using the input address which is from                the geocoding via Google Maps Geocoding API. It also passes the JSON object returned by the Nearby Search to                  the client side, or parse the returned JSON and extract useful fields and pass these fields to the client side                in JSON format. AJAX call to the script hosted on GAE. 
 
 __4) place.js__<br />
-:deals with Autocomplete service provided by Google Maps Plateform and Search controller to parse the JSON                      object and display the result in a tabular format with AngularJS. Plus, it obtains User Location using                        geolocation APIs(ip-api.com)
+: deals with Autocomplete service provided by Google Maps Plateform and Search controller to parse the JSON                      object and display the result in a tabular format with AngularJS. Plus, it obtains User Location using                        geolocation APIs(ip-api.com)
 
 __5) style.css__<br />
-:is a style sheet for main.html
+: is a style sheet for main.html
 
 
 ## 4. Demo and Details
